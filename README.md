@@ -12,7 +12,7 @@
 Họ tên | Email
 --- | --- 
 PGS.TS. Lê Đình Duy | duyld@uit.edu.vn
-Ths. Phạm Nguyễn Trường An | duyld@uit.edu.vn
+Ths. Phạm Nguyễn Trường An | truonganpn@uit.edu.vn
 
 
 ### Các thành viên của nhóm:
