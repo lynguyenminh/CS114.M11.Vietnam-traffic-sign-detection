@@ -1,0 +1,2 @@
+Dữ liệu train: https://cs.uit.edu.vn/data2.txt
+Dữ liệu test: https://cs.uit.edu.vn/data3.txt
