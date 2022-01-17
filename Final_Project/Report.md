@@ -173,7 +173,7 @@ ID | Tên biển báo | Hình ảnh |  | ID | Tên biển báo | Hình ảnh
 </p>
 
 <a name="training"></a>
-# **4. Training Và Đánh Giá Model**
+# **3. Training Và Đánh Giá Model**
 ## Các bước cơ bản của quá trình training
 
 <p align ="middle">
