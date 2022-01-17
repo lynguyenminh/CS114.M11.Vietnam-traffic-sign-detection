@@ -92,7 +92,7 @@ ID | Tên biển báo | Hình ảnh |  | ID | Tên biển báo | Hình ảnh
 --- | --- | -- | -- | -- | --- | ---
 0 | Cấm rẽ trái | ![](https://github.com/lynguyenminhuit/CS114.M11/blob/master/Final_Project/Image%20in%20report/cam%20re%20trai.png?raw=true "") |  | 25 | Cấm dừng và đỗ xe từ 6-20h | ![](https://github.com/lynguyenminhuit/CS114.M11/blob/master/Final_Project/Image%20in%20report/cam%20dung%20va%20do%20xe%206-20.png?raw=true '')
 1 | Cấm sử dụng còi | ![](https://github.com/lynguyenminhuit/CS114.M11/blob/master/Final_Project/Image%20in%20report/cam%20su%20dung%20coi.png?raw=true "") |  | 26 | Trọng lượng tối đa 10T | ![](https://github.com/lynguyenminhuit/CS114.M11/blob/master/Final_Project/Image%20in%20report/trong%20luong%20toi%20da%2010t.png?raw=true '')
-2 | Đi thẳng | ![](https://github.com/lynguyenminhuit/CS114.M11/blob/master/Final_Project/Image%20in%20report/di%20thang.png?raw=true "") |  | 27 | Cấm đỗ xe từ 9-16h và 19h-22h | ![]( '')
+2 | Đi thẳng | ![](https://github.com/lynguyenminhuit/CS114.M11/blob/master/Final_Project/Image%20in%20report/di%20thang.png?raw=true "") |  | 27 | Cấm đỗ xe từ 9-16h và 19h-6h | ![](https://github.com/lynguyenminhuit/CS114.M11/blob/master/Final_Project/Image%20in%20report/cam%20do%20xe%209-16-19-6.png?raw=true '')
 3 | Đường bị hẹp bên phải | ![](https://github.com/lynguyenminhuit/CS114.M11/blob/master/Final_Project/Image%20in%20report/duong%20bi%20hep%20ben%20phia.png?raw=true "") |  | 28 | Cấm xe tải 2.5T từ 6-9g và 16-22h | ![](https://github.com/lynguyenminhuit/CS114.M11/blob/master/Final_Project/Image%20in%20report/cam%20xe%20tai%202.5t%20t%E1%BB%AB%206-9%2019-22.png?raw=true '')
 4 | Đường bị hẹp bên trái | ![](https://github.com/lynguyenminhuit/CS114.M11/blob/master/Final_Project/Image%20in%20report/duong%20bi%20hep%20ben%20trai.png?raw=true "") |  | 29 | Cấm đỗ xe 6-9h và 16-21h | ![](https://github.com/lynguyenminhuit/CS114.M11/blob/master/Final_Project/Image%20in%20report/cam%20do%20xe%206-9%2016-21.png?raw=true '')
 5 | Rẽ trái | ![](https://github.com/lynguyenminhuit/CS114.M11/blob/master/Final_Project/Image%20in%20report/re%20trai.png?raw=true "") |  | 30 | Bắt buộc rẽ trái | ![](https://github.com/lynguyenminhuit/CS114.M11/blob/master/Final_Project/Image%20in%20report/bat%20buoc%20re%20trai.png?raw=true '')
@@ -108,12 +108,12 @@ ID | Tên biển báo | Hình ảnh |  | ID | Tên biển báo | Hình ảnh
 15 | Chỗ ngoặc vòng bên phải | ![](https://github.com/lynguyenminhuit/CS114.M11/blob/master/Final_Project/Image%20in%20report/cho%20ngoac%20vong%20ben%20phai.png?raw=true "") |  | 40 | Giao nhau với đường ưu tiên | ![](https://github.com/lynguyenminhuit/CS114.M11/blob/master/Final_Project/Image%20in%20report/giao%20nhau%20duong%20uu%20tien.png?raw=true '')
 16 | Đường không bằng phẳng | ![](https://github.com/lynguyenminhuit/CS114.M11/blob/master/Final_Project/Image%20in%20report/duong%20khong%20bang%20phang.png?raw=true "") |  | 41 | Nhiều chỗ ngoặc nguy hiểm liên tiếp | ![](https://github.com/lynguyenminhuit/CS114.M11/blob/master/Final_Project/Image%20in%20report/nhieu%20cho%20ngoac%20nguy%20hiem%20lien%20tiep.png?raw=true '')
 17 | Tốc độ tối đa 50km/h | ![](https://github.com/lynguyenminhuit/CS114.M11/blob/master/Final_Project/Image%20in%20report/toc%20do%20toi%20da%2050.png?raw=true "") |  | 42 | Đỗ xe | ![](https://github.com/lynguyenminhuit/CS114.M11/blob/master/Final_Project/Image%20in%20report/noi%20do%20xe.png?raw=true '')
-18 | Đường dành cho xe moto | ![](https://github.com/lynguyenminhuit/CS114.M11/blob/master/Final_Project/Image%20in%20report/duong%20danh%20cho%20xe%20moto.png?raw=true "") |  | 43 | Cấm dừng và đỗ xe từ 6-9h và 16-20h | ![]( '')
-19 | Cấm đi ngược chiều | ![](https://github.com/lynguyenminhuit/CS114.M11/blob/master/Final_Project/Image%20in%20report/cam%20di%20nguoc%20chieu.png?raw=true "") |  | 44 | Cấm đỗ xe từ 9-16h và 20-6h | ![]( '')
+18 | Đường dành cho xe moto | ![](https://github.com/lynguyenminhuit/CS114.M11/blob/master/Final_Project/Image%20in%20report/duong%20danh%20cho%20xe%20moto.png?raw=true "") |  | 43 | Cấm dừng và đỗ xe từ 6-9h và 16-20h | ![](https://github.com/lynguyenminhuit/CS114.M11/blob/master/Final_Project/Image%20in%20report/C%E1%BA%A5m%20d%E1%BB%ABng%20v%C3%A0%20%C4%91%E1%BB%97%20xe%20t%E1%BB%AB%206-9h%20v%C3%A0%2016-20h.png?raw=true '')
+19 | Cấm đi ngược chiều | ![](https://github.com/lynguyenminhuit/CS114.M11/blob/master/Final_Project/Image%20in%20report/cam%20di%20nguoc%20chieu.png?raw=true "") |  | 44 | Cấm đỗ xe từ 9-16h và 20-6h | ![](https://github.com/lynguyenminhuit/CS114.M11/blob/master/Final_Project/Image%20in%20report/C%E1%BA%A5m%20%C4%91%E1%BB%97%20xe%20t%E1%BB%AB%209-16h%20v%C3%A0%2020-6h.png?raw=true '')
 20 | Đi vào đường bên phải | ![](https://github.com/lynguyenminhuit/CS114.M11/blob/master/Final_Project/Image%20in%20report/huong%20phai%20di%20vong%20sang%20phai.png?raw=true "") |  | 45 | Ngoại lệ | ![](https://github.com/lynguyenminhuit/CS114.M11/blob/master/Final_Project/Image%20in%20report/ngoai%20le.png?raw=true '')
 21 | Cấm xe 3 hay 4 bánh thô sơ từ 5-13h và 16-22h | ![](https://github.com/lynguyenminhuit/CS114.M11/blob/master/Final_Project/Image%20in%20report/cam%20xe%203%204%20banh%20tho%20so%20thoi%20gian.png?raw=true "") |  | 46 | Chú ý chướng ngại vật phía trước | ![](https://github.com/lynguyenminhuit/CS114.M11/blob/master/Final_Project/Image%20in%20report/chu%20y%20chuong%20ngai%20vat%20phia%20truoc.png?raw=true '')
 22 | Cấm đỗ xe vào ngày chẳn | ![](https://github.com/lynguyenminhuit/CS114.M11/blob/master/Final_Project/Image%20in%20report/cam%20do%20xe%20ngay%20chan.png?raw=true "") |  | 47 | Cấm dừng và đỗ xe | ![](https://github.com/lynguyenminhuit/CS114.M11/blob/master/Final_Project/Image%20in%20report/cam%20dung%20va%20do%20xe.png?raw=true '')
-23 | Cấm đỗ xe | ![](https://github.com/lynguyenminhuit/CS114.M11/blob/master/Final_Project/Image%20in%20report/cam%20do%20xe.png?raw=true "") |  | 48 | Cắm rẽ phải | ![]( '')
+23 | Cấm đỗ xe | ![](https://github.com/lynguyenminhuit/CS114.M11/blob/master/Final_Project/Image%20in%20report/cam%20do%20xe.png?raw=true "") |  | 48 | Cắm rẽ phải | ![](https://github.com/lynguyenminhuit/CS114.M11/blob/master/Final_Project/Image%20in%20report/cam%20re%20phai.png?raw=true '')
 24 | Bến xe bus | ![](https://github.com/lynguyenminhuit/CS114.M11/blob/master/Final_Project/Image%20in%20report/ben%20xe%20bus.png?raw=true "") |  | 49 | Đường có camera | ![](https://github.com/lynguyenminhuit/CS114.M11/blob/master/Final_Project/Image%20in%20report/camere.png?raw=true '')
 
 * **Chia tập train/val**
@@ -146,7 +146,9 @@ ID | Tên biển báo | Hình ảnh |  | ID | Tên biển báo | Hình ảnh
     * Đối với những biển báo bị mất hơn 40% diện tích, thì sẽ bỏ qua. Lí do là ảnh đó có thể đánh mất một số feature quan trọng, có thể làm cho model học sai.
   * Format sau khi label
     * Đối với mỗi ảnh, sẽ có 1 file txt. Gọi là file annotation.
+
     ![](https://github.com/lynguyenminhuit/CS114.M11/blob/master/Final_Project/Image%20in%20report/cau%20truc%20annotation.png?raw=true 'Cấu trúc file annotation')
+
 * **Thông tin về tập data**
   * Tăng cường dữ liệu: 
     * Tiến hành tăng cường dữ liệu trên tập train, do đó số ảnh train tăng gấp 3 lần ban đầu 3537 ảnh. Quá trình tăng cường được thực hiện trên Roboflow, với các kĩ thuật:
@@ -210,8 +212,6 @@ ID | Tên biển báo | Hình ảnh |  | ID | Tên biển báo | Hình ảnh
 ## Tổng quan về YOLOv4 và YOLOv5
 * **YOLOv4**
   * Tác giả ban đầu của yolo là Joseph Redmon. Sau đó Alexey Bochkovskiy cải tiến và tạo ra YOLOv4 (năm 2020).
-  ![]( "Joseph Redmon")
-  ![]( "Alexey Bochkovskiy")
 
 <p align ="middle">
 <img src = "https://github.com/lynguyenminhuit/CS114.M11/blob/master/Final_Project/Image%20in%20report/joshep.jpg?raw=true" height='200' width='200' />
