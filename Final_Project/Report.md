@@ -157,6 +157,12 @@ ID | Tên biển báo | Hình ảnh |  | ID | Tên biển báo | Hình ảnh
       * Tổng số lượng ảnh dùng để train-val là 3806 ảnh, bao gồm 50 classes.
       * Bộ dữ liệu test: gồm 17  video.
       * Một số ảnh nằm trong bộ dữ liệu.
+<p align ="middle">
+  <img src = "https://github.com/lynguyenminhuit/CS114.M11/blob/master/Final_Project/Image%20in%20report/minh%20hoa%201.jpg?raw=true" />
+  <img src = "https://github.com/lynguyenminhuit/CS114.M11/blob/master/Final_Project/Image%20in%20report/minh%20hoa%202.jpg?raw=true" />
+  <img src = "https://github.com/lynguyenminhuit/CS114.M11/blob/master/Final_Project/Image%20in%20report/minh%20hoa%203.jpg?raw=true" />
+  <img src = "https://github.com/lynguyenminhuit/CS114.M11/blob/master/Final_Project/Image%20in%20report/minh%20hoa%204.jpg?raw=true" />
+</p>
     * Số ảnh trong từng class của tập train và val.
 
 <p align ="middle">   
@@ -165,15 +171,13 @@ ID | Tên biển báo | Hình ảnh |  | ID | Tên biển báo | Hình ảnh
     <img src="https://github.com/lynguyenminhuit/CS114.M11/blob/master/Final_Project/Image%20in%20report/phan%20phoi%20vi%20tri%20bb.png?raw=true" alt="drawing" width="400" height='300'/>
     <img src="https://github.com/lynguyenminhuit/CS114.M11/blob/master/Final_Project/Image%20in%20report/phan%20phoi%20kich%20thuoc%20bb.png?raw=true" alt="drawing" width="400" height='300'/>
 </p>
+
 <a name="training"></a>
 # **4. Training Và Đánh Giá Model**
 ## Các bước cơ bản của quá trình training
 
 <p align ="middle">
-  <img src = "https://github.com/lynguyenminhuit/CS114.M11/blob/master/Final_Project/Image%20in%20report/minh%20hoa%201.jpg?raw=true" />
-  <img src = "https://github.com/lynguyenminhuit/CS114.M11/blob/master/Final_Project/Image%20in%20report/minh%20hoa%202.jpg?raw=true" />
-  <img src = "https://github.com/lynguyenminhuit/CS114.M11/blob/master/Final_Project/Image%20in%20report/minh%20hoa%203.jpg?raw=true" />
-  <img src = "https://github.com/lynguyenminhuit/CS114.M11/blob/master/Final_Project/Image%20in%20report/minh%20hoa%204.jpg?raw=true" />
+  <img src = "https://github.com/lynguyenminhuit/CS114.M11/blob/master/Final_Project/Image%20in%20report/cac%20buoc%20co%20ban%20qua%20trinh%20train.png?raw=true" />
 </p>
 
 * Vì sao phải trích xuất đặc trưng ảnh?
