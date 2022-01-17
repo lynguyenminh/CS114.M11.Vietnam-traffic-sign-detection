@@ -124,8 +124,10 @@ ID | Tên biển báo | Hình ảnh |  | ID | Tên biển báo | Hình ảnh
     <img src="https://github.com/lynguyenminhuit/CS114.M11/blob/master/Final_Project/Image%20in%20report/phan%20phoi%20tap%20train%202.png?raw=true" alt="drawing" width="400" height='300'/>
     
     * Val: 269 ảnh.
-    ![](https://github.com/lynguyenminhuit/CS114.M11/blob/master/Final_Project/Image%20in%20report/phan%20phoi%20tap%20val%201.png?raw=true "Phân phối tập val")
-    ![PHân hoi](https://github.com/lynguyenminhuit/CS114.M11/blob/master/Final_Project/Image%20in%20report/phan%20phoi%20tap%20val%202.png?raw=true "Phân phối tập val")
+
+    <img src="https://github.com/lynguyenminhuit/CS114.M11/blob/master/Final_Project/Image%20in%20report/phan%20phoi%20tap%20val%201.png?raw=true" alt="drawing" width="400" height='300'/>
+    <img src="https://github.com/lynguyenminhuit/CS114.M11/blob/master/Final_Project/Image%20in%20report/phan%20phoi%20tap%20val%202.png?raw=true " alt="drawing" width="400" height='300'/>
+   
 
 
 
@@ -156,10 +158,14 @@ ID | Tên biển báo | Hình ảnh |  | ID | Tên biển báo | Hình ảnh
       * Bộ dữ liệu test: gồm 17  video.
       * Một số ảnh nằm trong bộ dữ liệu.
     * Số ảnh trong từng class của tập train và val.
-    ![](https://github.com/lynguyenminhuit/CS114.M11/blob/master/Final_Project/Image%20in%20report/phan%20phoi%20train%20+%20val%201.png?raw=true "Phân phối toàn bộ dữ liệu")
-    ![](https://github.com/lynguyenminhuit/CS114.M11/blob/master/Final_Project/Image%20in%20report/phan%20phoi%20train%20+%20val.png?raw=true "")
-    ![](https://github.com/lynguyenminhuit/CS114.M11/blob/master/Final_Project/Image%20in%20report/phan%20phoi%20vi%20tri%20bb.png?raw=true "")
-    ![](https://github.com/lynguyenminhuit/CS114.M11/blob/master/Final_Project/Image%20in%20report/phan%20phoi%20kich%20thuoc%20bb.png?raw=true "")
+   
+    <img src="https://github.com/lynguyenminhuit/CS114.M11/blob/master/Final_Project/Image%20in%20report/phan%20phoi%20train%20+%20val%201.png?raw=true" alt="drawing" width="400" height='300'/>
+
+    <img src="https://github.com/lynguyenminhuit/CS114.M11/blob/master/Final_Project/Image%20in%20report/phan%20phoi%20train%20+%20val.png?raw=true" alt="drawing" width="400" height='300'/>
+
+    <img src="https://github.com/lynguyenminhuit/CS114.M11/blob/master/Final_Project/Image%20in%20report/phan%20phoi%20vi%20tri%20bb.png?raw=true" alt="drawing" width="400" height='300'/>
+
+    <img src="https://github.com/lynguyenminhuit/CS114.M11/blob/master/Final_Project/Image%20in%20report/phan%20phoi%20kich%20thuoc%20bb.png?raw=true" alt="drawing" width="400" height='300'/>
 <a name="training"></a>
 # **4. Training Và Đánh Giá Model**
 ## Các bước cơ bản của quá trình training
