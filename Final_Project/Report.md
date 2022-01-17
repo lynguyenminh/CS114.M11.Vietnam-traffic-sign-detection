@@ -158,20 +158,22 @@ ID | Tên biển báo | Hình ảnh |  | ID | Tên biển báo | Hình ảnh
       * Bộ dữ liệu test: gồm 17  video.
       * Một số ảnh nằm trong bộ dữ liệu.
     * Số ảnh trong từng class của tập train và val.
-   
+
+<p align ="middle">   
     <img src="https://github.com/lynguyenminhuit/CS114.M11/blob/master/Final_Project/Image%20in%20report/phan%20phoi%20train%20+%20val%201.png?raw=true" alt="drawing" width="400" height='300'/>
-
     <img src="https://github.com/lynguyenminhuit/CS114.M11/blob/master/Final_Project/Image%20in%20report/phan%20phoi%20train%20+%20val.png?raw=true" alt="drawing" width="400" height='300'/>
-
     <img src="https://github.com/lynguyenminhuit/CS114.M11/blob/master/Final_Project/Image%20in%20report/phan%20phoi%20vi%20tri%20bb.png?raw=true" alt="drawing" width="400" height='300'/>
-
     <img src="https://github.com/lynguyenminhuit/CS114.M11/blob/master/Final_Project/Image%20in%20report/phan%20phoi%20kich%20thuoc%20bb.png?raw=true" alt="drawing" width="400" height='300'/>
+</p>
 <a name="training"></a>
 # **4. Training Và Đánh Giá Model**
 ## Các bước cơ bản của quá trình training
 
 <p align ="middle">
-  <img src = "https://github.com/lynguyenminhuit/CS114.M11/blob/master/Final_Project/Image%20in%20report/cac%20buoc%20co%20ban%20qua%20trinh%20train.png?raw=true" />
+  <img src = "https://github.com/lynguyenminhuit/CS114.M11/blob/master/Final_Project/Image%20in%20report/minh%20hoa%201.jpg?raw=true" />
+  <img src = "https://github.com/lynguyenminhuit/CS114.M11/blob/master/Final_Project/Image%20in%20report/minh%20hoa%202.jpg?raw=true" />
+  <img src = "https://github.com/lynguyenminhuit/CS114.M11/blob/master/Final_Project/Image%20in%20report/minh%20hoa%203.jpg?raw=true" />
+  <img src = "https://github.com/lynguyenminhuit/CS114.M11/blob/master/Final_Project/Image%20in%20report/minh%20hoa%204.jpg?raw=true" />
 </p>
 
 * Vì sao phải trích xuất đặc trưng ảnh?
@@ -261,9 +263,12 @@ ID | Tên biển báo | Hình ảnh |  | ID | Tên biển báo | Hình ảnh
 
       1. Gitclone repo: https://github.com/ultralytics/yolov5
       2. Up data lên drive.
+
         ![](https://github.com/lynguyenminhuit/CS114.M11/blob/master/Final_Project/Image%20in%20report/thu%20muc%20tren%20colab%20yolov5.png?raw=true " ")
+
       3. Cài môi trường như hướng dẫn trong repo.
       4. Setup lại file yolov5/data/coco128.yaml.
+
       ![](https://github.com/lynguyenminhuit/CS114.M11/blob/master/Final_Project/Image%20in%20report/c%C3%B4c128.png?raw=true "")
       5. Chạy lệnh để train.
     Sau khi chạy hết 1 epoch, file weight sẽ tự động lưu trong yolov5/runs/train.
