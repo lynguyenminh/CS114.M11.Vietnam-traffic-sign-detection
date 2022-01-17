@@ -176,11 +176,15 @@ ID | Tên biển báo | Hình ảnh |  | ID | Tên biển báo | Hình ảnh
 
 * Vì sao phải trích xuất đặc trưng ảnh?
   * Dưới góc nhìn của máy tính thì bức ảnh chẳng qua là những ma trận số đơn sơ. Còn đối với chúng ta, chúng ta nhận diện được ảnh là do nhận ra những đặc trưng của ảnh. Ví dụ với ảnh sau, những đặc trưng của biển báo: 
-  ![](https://github.com/lynguyenminhuit/CS114.M11/blob/master/Final_Project/Image%20in%20report/minh%20hoa%20dac%20trung.jpg?raw=true '')
     * Hình tròn.
     *	Viền đỏ
     *	Dấu gạch hướng sang trái màu đỏ
     *	Dấu gạch màu trắng thẳng đứng ở giữa.
+<p align ="middle">
+<img src = "https://github.com/lynguyenminhuit/CS114.M11/blob/master/Final_Project/Image%20in%20report/minh%20hoa%20dac%20trung.jpg?raw=true" />
+</p>
+
+
   * Giảm số chiều dữ liệu do bỏ đi những phần data không quan trọng. Gia tăng tốc độ training và dự đoán.
 
 ## Cách đánh giá bài toán và chọn model để huấn luyện
