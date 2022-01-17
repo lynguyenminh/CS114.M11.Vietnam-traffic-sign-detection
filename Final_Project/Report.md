@@ -173,7 +173,7 @@ ID | Tên biển báo | Hình ảnh |  | ID | Tên biển báo | Hình ảnh
 </p>
 
 <a name="training"></a>
-# **3. Training Và Đánh Giá Model**
+# **4. Training Và Đánh Giá Model**
 ## Các bước cơ bản của quá trình training
 
 <p align ="middle">
@@ -199,7 +199,9 @@ ID | Tên biển báo | Hình ảnh |  | ID | Tên biển báo | Hình ảnh
     * Họ các mô hình YOLO (You Only Look Once), là một nhóm kỹ thuật thứ hai để nhận dạng đối tượng được thiết kế để nhận diện vật thể real time.
 
   * Cả 2 họ mô hình trên đều có ưu và nhược điểm khác nhau, khó mà có thế so sánh để tìm ra được mô hình nào gọi là tốt nhất. Tuy nhiên dựa vào đặc điểm của bài toán chúng em đặt ra, tốc độ nhận diện phải nhanh là yếu tố bắt buộc phải đáp ứng. Do đó chúng em quyết định dùng YOLO để thực hiện bài toán này.
+
   ![](https://github.com/lynguyenminhuit/CS114.M11/blob/master/Final_Project/Image%20in%20report/yolov4%20perform.png?raw=true "")
+
   * Hình trên là kết quả đánh giá các mô hình trên tập dữ liệu MS COCO (test-dev 2017) gồm 80 classes với 330000 ảnh dùng để huấn luyện. Nhận thấy rằng YOLO v4 có tốc độ predict nhanh, đồng thời độ chính xác chấp nhận được. Do đó chúng em quyết định dùng YOLO v4 để train và đánh giá mô hình.
   * Bên cạnh đó, YOLO cũng vừa ra phiên bản YOLOv5. Chúng em cũng tiến hành đánh giá trong bài toán này.
 
@@ -222,15 +224,21 @@ ID | Tên biển báo | Hình ảnh |  | ID | Tên biển báo | Hình ảnh
   * Repo Github: https://github.com/AlexeyAB/darknet
 * **YOLOv5**
   * Tác giả chính là Glenn Jocher.
-  ![](https://github.com/lynguyenminhuit/CS114.M11/blob/master/Final_Project/Image%20in%20report/glenn.jpg?raw=true "Glenn Jocher")
+
+<p align ="middle">
+<img src = "https://github.com/lynguyenminhuit/CS114.M11/blob/master/Final_Project/Image%20in%20report/glenn.jpg?raw=true" height='200' width='200' />
+</p>
+
   * Hiện đang được phát triển bởi Ultralytics LLC (2020). Phiên bản này hiện khá triển vọng theo các số liệu được cung cấp bởi công ty phát triển. Tuy nhiên phiên bản YOLOv5 này chưa có paper chính thức được chấp nhận và cũng đang có nhiều tranh cãi xung quanh tính hiệu quả của mô hình đang được phát triển này.
   * YOLOv5 hiện đang có 5 model.
+
   ![](https://github.com/lynguyenminhuit/CS114.M11/blob/master/Final_Project/Image%20in%20report/yolo%20v5%20version.png?raw=true "5 mô hình của YOLOv5")
 
 ## Các bước tiến hành train
 * **Môi trường train và đánh giá**
   * Môi trường train và đánh giá:
     * Google colab là một virtual cloud machine được google cung cấp miễn phí cho các nhà nghiên cứu. Đây là môi trường lý tưởng để phát triển các mô hình vừa và nhỏ. Điểm tuyệt vời ở google colab đó là môi trường của nó đã cài sẵn các packages machine learning và frame works deep learning thông dụng nhất.
+
   ![](https://github.com/lynguyenminhuit/CS114.M11/blob/master/Final_Project/Image%20in%20report/colab%20gpu.png?raw=true "Kiểm tra gpu của Colab")
   
    * Do quá trình tải dữ liệu lên Colab tốn thời gian, và sau mỗi phiên colab (khoảng 5 tiếng) thì dữ liệu sẽ mất hết. Do đó chúng em lưu trữ dữ liệu bài toán trên google drive, sau đó kết nối drive với colab.
@@ -274,6 +282,7 @@ ID | Tên biển báo | Hình ảnh |  | ID | Tên biển báo | Hình ảnh
       4. Setup lại file yolov5/data/coco128.yaml.
 
       ![](https://github.com/lynguyenminhuit/CS114.M11/blob/master/Final_Project/Image%20in%20report/c%C3%B4c128.png?raw=true "")
+
       5. Chạy lệnh để train.
     Sau khi chạy hết 1 epoch, file weight sẽ tự động lưu trong yolov5/runs/train.
 
