@@ -123,6 +123,9 @@ ID | Tên biển báo | Hình ảnh |  | ID | Tên biển báo | Hình ảnh
     <img src="https://github.com/lynguyenminhuit/CS114.M11/blob/master/Final_Project/Image%20in%20report/phan%20phoi%20tap%20train%201.png?raw=true" alt="drawing" width="400" height='300'/>
     <img src="https://github.com/lynguyenminhuit/CS114.M11/blob/master/Final_Project/Image%20in%20report/phan%20phoi%20tap%20train%202.png?raw=true" alt="drawing" width="400" height='300'/>
     
+
+    <img src="https://github.com/lynguyenminhuit/CS114.M11/blob/master/Final_Project/Image%20in%20report/test2.png?raw=true " alt="drawing" width="1000" height='700'/>
+
     * Val: 269 ảnh.
 
     <img src="https://github.com/lynguyenminhuit/CS114.M11/blob/master/Final_Project/Image%20in%20report/phan%20phoi%20tap%20val%201.png?raw=true" alt="drawing" width="400" height='300'/>
