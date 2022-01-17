@@ -120,8 +120,8 @@ ID | Tên biển báo | Hình ảnh |  | ID | Tên biển báo | Hình ảnh
   * Sau khi label và lọc ảnh, còn lại 1448 ảnh. Tiến hành chia train/val với tỉ lệ 8/2:
     * Train: 1179 ảnh.
     
-    <img src="https://github.com/lynguyenminhuit/CS114.M11/blob/master/Final_Project/Image%20in%20report/phan%20phoi%20tap%20train%201.png?raw=true" alt="drawing" width="500" height='350'/>
-    <img src="https://github.com/lynguyenminhuit/CS114.M11/blob/master/Final_Project/Image%20in%20report/phan%20phoi%20tap%20train%202.png?raw=true" alt="drawing" width="500" height='350'/>
+    <img src="https://github.com/lynguyenminhuit/CS114.M11/blob/master/Final_Project/Image%20in%20report/phan%20phoi%20tap%20train%201.png?raw=true" alt="drawing" width="400" height='300'/>
+    <img src="https://github.com/lynguyenminhuit/CS114.M11/blob/master/Final_Project/Image%20in%20report/phan%20phoi%20tap%20train%202.png?raw=true" alt="drawing" width="400" height='300'/>
     
     * Val: 269 ảnh.
     ![](https://github.com/lynguyenminhuit/CS114.M11/blob/master/Final_Project/Image%20in%20report/phan%20phoi%20tap%20val%201.png?raw=true "Phân phối tập val")
