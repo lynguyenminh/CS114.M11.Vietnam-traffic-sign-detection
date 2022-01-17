@@ -202,8 +202,16 @@ ID | Tên biển báo | Hình ảnh |  | ID | Tên biển báo | Hình ảnh
 ## Tổng quan về YOLOv4 và YOLOv5
 * **YOLOv4**
   * Tác giả ban đầu của yolo là Joseph Redmon. Sau đó Alexey Bochkovskiy cải tiến và tạo ra YOLOv4 (năm 2020).
-  ![](https://github.com/lynguyenminhuit/CS114.M11/blob/master/Final_Project/Image%20in%20report/joshep.jpg?raw=true "Joseph Redmon")
-  ![](https://github.com/lynguyenminhuit/CS114.M11/blob/master/Final_Project/Image%20in%20report/alexey.jpg?raw=true "Alexey Bochkovskiy")
+  ![]( "Joseph Redmon")
+  ![]( "Alexey Bochkovskiy")
+
+<p align ="middle">
+<img src = "https://github.com/lynguyenminhuit/CS114.M11/blob/master/Final_Project/Image%20in%20report/joshep.jpg?raw=true" height='200' width='200' />
+<img src = "https://github.com/lynguyenminhuit/CS114.M11/blob/master/Final_Project/Image%20in%20report/alexey.jpg?raw=true" height='200' width='200' />
+</p>
+
+
+
   * Model Yolov4 sử dụng từ nhiều bộ dataset để train từ trước, đơn cử nhất là từ hai bộ dataset nổi tiếng là ImageNet (ILSVRC 2012 val) gồm 1000 object classes với gần 1,5 triệu ảnh dùng để huấn luyện và MS COCO (test-dev 2017) gồm 80 classes với 330000 ảnh dùng để huấn luyện, có thêm các bước tăng cường dữ liệu như blur,...
   * Repo Github: https://github.com/AlexeyAB/darknet
 * **YOLOv5**
