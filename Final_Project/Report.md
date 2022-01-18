@@ -1,6 +1,6 @@
 
 
-<!-- <h3 align="center" font-size= 14px;><b>Trường Đại Học Công Nghệ Thông Tin - ĐHQH TPHCM</b></h3> -->
+<h3 align="center" font-size= 14px;><b>Trường Đại Học Công Nghệ Thông Tin - ĐHQH TPHCM</b></h3>
 <p align="center">
   <a href="https://www.uit.edu.vn/" title="Trường Đại học Công nghệ Thông tin" style="border: 5;">
     <img src="https://i.imgur.com/WmMnSRt.png" alt="Trường Đại học Công nghệ Thông tin | University of Information Technology">
@@ -207,7 +207,10 @@ ID | Tên biển báo | Hình ảnh |  | ID | Tên biển báo | Hình ảnh
 
   * Cả 2 họ mô hình trên đều có ưu và nhược điểm khác nhau, khó mà có thế so sánh để tìm ra được mô hình nào gọi là tốt nhất. Tuy nhiên dựa vào đặc điểm của bài toán chúng em đặt ra, tốc độ nhận diện phải nhanh là yếu tố bắt buộc phải đáp ứng. Do đó chúng em quyết định dùng YOLO để thực hiện bài toán này.
 
-  ![](https://github.com/lynguyenminhuit/CS114.M11/blob/master/Final_Project/Image%20in%20report/yolov4%20perform.png?raw=true "")
+
+<p align ="middle">
+<img src = "https://github.com/lynguyenminhuit/CS114.M11/blob/master/Final_Project/Image%20in%20report/yolov4%20perform.png?raw=true" />
+</p>
 
   * Hình trên là kết quả đánh giá các mô hình trên tập dữ liệu MS COCO (test-dev 2017) gồm 80 classes với 330000 ảnh dùng để huấn luyện. Nhận thấy rằng YOLO v4 có tốc độ predict nhanh, đồng thời độ chính xác chấp nhận được. Do đó chúng em quyết định dùng YOLO v4 để train và đánh giá mô hình.
   * Bên cạnh đó, YOLO cũng vừa ra phiên bản YOLOv5. Chúng em cũng tiến hành đánh giá trong bài toán này.
@@ -295,6 +298,63 @@ ID | Tên biển báo | Hình ảnh |  | ID | Tên biển báo | Hình ảnh
 
 
 ## Đánh giá mô hình
+Sau khi thực hiện train model, để xác định model của chúng ta có đủ tốt hay chưa cũng như đảm bảo khả năng nhận diện trong tương lai ta cần có một phương pháp đánh giá với tiêu chí cụ thể. Đối với bài toán Object Detection, model thường được đánh giá dựa trên mAP,...Trong bài toán này, chúng em quyết định sử dụng mAP để đánh giá về độ chính xác model của mình. Ngoài ra, để đánh giá về mặt tốc độ, chúng em dùng FPS.
+
+**1. Thang đánh giá mAP**
+
+Trước khi tìm hiểu khái niệm và cách tính mAP, chúng ta cần tìm hiểu các khái niệm liên quan.
+
+* **IOU (Intersection over Union).**
+  * IOU là hàm đánh giá độ chính xác của object detector trên tập dữ liệu, cụ thể được xác định bởi phép chia:
+<p align ="middle">
+<img src = "https://github.com/lynguyenminhuit/CS114.M11/blob/master/Final_Project/Image%20in%20report/cong%20thuc%20IOU.png?raw=true" />
+<img src = "https://github.com/lynguyenminhuit/CS114.M11/blob/master/Final_Project/Image%20in%20report/th%E1%BB%B1c%20t%E1%BA%BF%20IOU.png?raw=true" />
+</p>
+
+
+  * Trong đó:
+	  * Area of overlap là giao predicted bounding box với grouth-truth bouding box.
+	  * Area of Union là diện tích phần hợp giữa predicted bounding box với grouth-truth bounding box.
+	  * Với grouth-truth bouding box là do ta xác định (Trong lúc label data), predicted bounding box do model xác định.
+  * Với mỗi bài toán thường có IOU threshold nhất định (nhận giá trị từ 0 đến 1). Nếu IOU > threshold thì prediction được đánh giá là tốt. Trong đa số bài toán threshold thường được đặt bằng 0.5.
+  * Các tiêu chí đánh giá với IOU threshold:
+	  * True Positive (TP):  Đối tượng được nhận dạng đúng với tỉ lệ IOU \geq threshold.
+	  * False Positive (FP): Đối tượng được nhận dạng sai với tỉ lệ IOU < threshold. 
+	  * False Nagative (FN): Đối tượng không được nhận dạng.
+
+* **2. Precision và Recall**
+* Precision - độ tin cậy của model, cho biết bao nhiêu % dự đoán Positive là True Positive. 
+* Recall - độ nhạy của model cho biết model có thể đoán đúng được bao nhiêu Positive trong dữ liệu được cho.
+
+* Với định nghĩa trên, precision và recall thay đổi với mỗi IOU threshold. Để quan sát tất cả các precision và recall tương ứng các IOU threshold ta sử dụng Precision Recall Curve – đường đi qua tất các cặp giá trị (recall, precicion) trong khoảng IOU threshold.
+
+<p align ="middle">
+<img src = "https://github.com/lynguyenminhuit/CS114.M11/blob/master/Final_Project/Image%20in%20report/precision%20recall%20curve.png?raw=true" />
+</p>
+
+* Ngoài ra Precision Recall Curve còn giúp tính AP (Average Precision). AP hay AUC(Area Under the Curve ) chính là vùng diện tích nằm dưới Precision Recall Curve nói trên (ở hình trên là phần màu xám).
+
+<p align ="middle">
+<img src = "https://github.com/lynguyenminhuit/CS114.M11/blob/master/Final_Project/Image%20in%20report/calcula%20AP.jpg?raw=true" />
+</p>
+
+  * AP lớn nếu vùng này lớn, suy ra đường cong có xu hướng gần góc trên bên phải và có nghĩa là tại các threshold khác nhau thì Precision và Recall đều khá cao. Từ đó suy ra model tốt.
+  * AP nhỏ thì cả Precision và Recall đều khá thấp và model không tốt.
+
+Và bây giờ, đã đủ những kiến thức để tìm hiểu mAP rồi. Bắt đầu nào!
+
+* Trong bài toán Object Detection nói chung hay YOLO nói riêng thì mAP được định nghĩa là trung bình cộng giá trị AP của tất cả các class. 
+
+<p align ="middle">
+<img src = "https://github.com/lynguyenminhuit/CS114.M11/blob/master/Final_Project/Image%20in%20report/calcula%20mAP.png?raw=true" />
+</p>
+
+* Trong đó:
+	* C là tập hợp tất cả các class
+	* n là số class
+* mAP càng lớn thì thì đa số AP của từng class riêng biệt càng lớn dẫn đế model càng tốt. Từ đó việc train model sẽ cố gắng train model có mAP lớn nhất có thể. Đây là lí do hoàn hảo sử dụng để mAP đánh giá model.
+
+
 
 
 
@@ -346,6 +406,8 @@ ID | Tên biển báo | Hình ảnh |  | ID | Tên biển báo | Hình ảnh
 [1]https://blog.paperspace.com/deep-learning-metrics-precision-recall-accuracy/
 
 [2]https://blog.paperspace.com/mean-average-precision/
+
+[3]
 
 *	Tìm hiểu về feature extraction
 
