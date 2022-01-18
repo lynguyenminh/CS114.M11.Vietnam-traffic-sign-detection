@@ -86,7 +86,7 @@ Lần thu thập | Ngày thu thập | Số lượng video | Số lượng ảnh 
 2 | 6/1/2022 | 49 | 877 | Train & val
 3 | 15/1/2022 | 17 | Không cắt thành ảnh | Test
 
-* **Sau 2 lần thu thập data đầu tiên, có tất cả 1751 ảnh, thuộc vào 70 class. Nhưng do có những class số lượng ảnh dưới 10, những ảnh label không đúng quy tắc ban đầu đề ra nên chúng em tiến hành loại bỏ. Sau cùng thu được 1448 ảnh thuộc 50 class bên dưới**
+* **Sau 2 lần thu thập data đầu tiên, có tất cả 1751 ảnh, thuộc vào 70 class. Nhưng do có những class số lượng ảnh dưới 10, những ảnh label không đúng quy tắc ban đầu đề ra nên chúng em tiến hành loại bỏ. Sau cùng thu được 1383 ảnh thuộc 50 class bên dưới**
 
 ID | Tên biển báo | Hình ảnh |  | ID | Tên biển báo | Hình ảnh
 --- | --- | -- | -- | -- | --- | ---
@@ -118,7 +118,7 @@ ID | Tên biển báo | Hình ảnh |  | ID | Tên biển báo | Hình ảnh
 
 * **Chia tập train/val**
   * Sau khi label và lọc ảnh, còn lại 1448 ảnh. Tiến hành chia train/val với tỉ lệ 8/2:
-    * Train: 1179 ảnh.
+    * Train: 1114 ảnh.
     
     <!-- <img src="https://github.com/lynguyenminhuit/CS114.M11/blob/master/Final_Project/Image%20in%20report/phan%20phoi%20tap%20train%201.png?raw=true" alt="drawing" width="400" height='300'/>
     <img src="https://github.com/lynguyenminhuit/CS114.M11/blob/master/Final_Project/Image%20in%20report/phan%20phoi%20tap%20train%202.png?raw=true" alt="drawing" width="400" height='300'/>
@@ -155,12 +155,12 @@ ID | Tên biển báo | Hình ảnh |  | ID | Tên biển báo | Hình ảnh
 
 * **Thông tin về tập data**
   * Tăng cường dữ liệu: 
-    * Tiến hành tăng cường dữ liệu trên tập train, do đó số ảnh train tăng gấp 3 lần ban đầu 3537 ảnh. Quá trình tăng cường được thực hiện trên Roboflow, với các kĩ thuật:
+    * Tiến hành tăng cường dữ liệu trên tập train, do đó số ảnh train tăng gấp 3 lần ban đầu 3342 ảnh. Quá trình tăng cường được thực hiện trên Roboflow, với các kĩ thuật:
     	* Rotate ảnh góc từ -7 đến 7 độ.
 	    * Làm mờ ảnh.
 
     * Tổng quan về bộ dữ liệu
-      * Tổng số lượng ảnh dùng để train-val là 3806 ảnh, bao gồm 50 classes.
+      * Tổng số lượng ảnh dùng để train-val là 3611 ảnh, bao gồm 50 classes.
       * Bộ dữ liệu test: gồm 17  video.
       * Một số ảnh nằm trong bộ dữ liệu.
 <p align ="middle">
@@ -174,7 +174,7 @@ ID | Tên biển báo | Hình ảnh |  | ID | Tên biển báo | Hình ảnh
 <p align ="middle">   
     <!-- <img src="https://github.com/lynguyenminhuit/CS114.M11/blob/master/Final_Project/Image%20in%20report/phan%20phoi%20train%20+%20val%201.png?raw=true" alt="drawing" width="400" height='300'/>
     <img src="https://github.com/lynguyenminhuit/CS114.M11/blob/master/Final_Project/Image%20in%20report/phan%20phoi%20train%20+%20val.png?raw=true" alt="drawing" width="400" height='300'/> -->
-    <img src="https://github.com/lynguyenminhuit/CS114.M11/blob/master/Final_Project/Image%20in%20report/tap%20train%20sau%20cung.png?raw=true" alt="drawing" width="1000" height='700'/>
+    <img src="https://github.com/lynguyenminhuit/CS114.M11/blob/master/Final_Project/Image%20in%20report/train+%20val.png?raw=true" alt="drawing" width="1000" height='700'/>
     <img src="https://github.com/lynguyenminhuit/CS114.M11/blob/master/Final_Project/Image%20in%20report/phan%20phoi%20vi%20tri%20bb.png?raw=true" alt="drawing" width="400" height='300'/>
     <img src="https://github.com/lynguyenminhuit/CS114.M11/blob/master/Final_Project/Image%20in%20report/phan%20phoi%20kich%20thuoc%20bb.png?raw=true" alt="drawing" width="400" height='300'/>
 </p>
