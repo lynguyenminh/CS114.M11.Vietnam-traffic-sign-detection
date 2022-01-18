@@ -307,10 +307,10 @@ Trước khi tìm hiểu khái niệm và cách tính mAP, chúng ta cần tìm 
 * **IOU (Intersection over Union).**
   * IOU là hàm đánh giá độ chính xác của object detector trên tập dữ liệu, cụ thể được xác định bởi phép chia:
   
-<p align ="middle">
+<!-- <p align ="middle">
 <img src = "https://github.com/lynguyenminhuit/CS114.M11/blob/master/Final_Project/Image%20in%20report/cong%20thuc%20IOU.png?raw=true" />
 <img src = "https://github.com/lynguyenminhuit/CS114.M11/blob/master/Final_Project/Image%20in%20report/th%E1%BB%B1c%20t%E1%BA%BF%20IOU.png?raw=true" />
-</p>
+</p> -->
 
 
   * Trong đó:
@@ -355,12 +355,28 @@ Và bây giờ, đã đủ những kiến thức để tìm hiểu mAP rồi. B�
 	* n là số class
 * mAP càng lớn thì thì đa số AP của từng class riêng biệt càng lớn dẫn đế model càng tốt. Từ đó việc train model sẽ cố gắng train model có mAP lớn nhất có thể. Đây là lí do hoàn hảo sử dụng để mAP đánh giá model.
 
+**2. FPS (Frame per second)**
+
+* FPS là tỉ lệ khung hình trên giây. FPS càng cao thì số khung hình xử lý trong 1 đơn vị thời gian càng nhiều. Hay nói cách khác, model có thể đáp ứng tác vụ real time.
 
 
+Tiến hành đánh giá 2 mô hình đã train phía trên: 
 
+* YOLOv4
+Sau khi train ... iters, chúng em nhận thấy giá trị loss ở phạm vi 1k iters gần đây không giảm đáng kể, chỉ xoay quanh ..., đồng thời mAP đánh giá trên tập val đã bắt đầu giảm. Nên chúng em quyết định dừng train tại đây.
 
+ảnh biểu đồ loss.
 
+* YOLOv5
+<p align ="middle">
+<img src = "https://github.com/lynguyenminhuit/CS114.M11/blob/master/Final_Project/Image%20in%20report/v5.png?raw=true" />
+</p>
 
+Yolov5 đánh giá file weight ở epoch 129 là file weight tốt nhất. Từ bảng số liệu trên, ta cũng thấy, trong phạm vi này, giá trị loss không thay đổi quá nhiều. Giá trị mAP đánh giá trên tập val có xu hướng giảm nhẹ (0.005). Chúng em quyết định dừng train ở đây do đánh giá model đã hội tụ.
+Model | mAP | FPS (card nào)
+--- | --- | --- 
+YOLOv4 | ... | ...
+YOLOv5 | ... | ...
 <a name="ungdung"></a>
 <h1>4. Ứng Dụng và Hướng Phát Triển </h1>
 
@@ -407,8 +423,6 @@ Và bây giờ, đã đủ những kiến thức để tìm hiểu mAP rồi. B�
 [1]https://blog.paperspace.com/deep-learning-metrics-precision-recall-accuracy/
 
 [2]https://blog.paperspace.com/mean-average-precision/
-
-[3]https://miai.vn/2021/10/14/thu-tim-hieu-ve-map-do-luong-object-detection-model/?fbclid=IwAR27RTRr7wFtCfAn58L6LU9kDEQc1g3skBkxiX3lV5lkmj691bqW7ryvW3E
 
 *	Tìm hiểu về feature extraction
 
