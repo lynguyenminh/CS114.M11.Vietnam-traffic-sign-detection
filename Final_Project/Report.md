@@ -306,10 +306,11 @@ Trước khi tìm hiểu khái niệm và cách tính mAP, chúng ta cần tìm 
 
 * **IOU (Intersection over Union).**
   * IOU là hàm đánh giá độ chính xác của object detector trên tập dữ liệu, cụ thể được xác định bởi phép chia:
-<p align ="middle">
+  
+<!-- <p align ="middle">
 <img src = "https://github.com/lynguyenminhuit/CS114.M11/blob/master/Final_Project/Image%20in%20report/cong%20thuc%20IOU.png?raw=true" />
 <img src = "https://github.com/lynguyenminhuit/CS114.M11/blob/master/Final_Project/Image%20in%20report/th%E1%BB%B1c%20t%E1%BA%BF%20IOU.png?raw=true" />
-</p>
+</p> -->
 
 
   * Trong đó:
@@ -322,17 +323,17 @@ Trước khi tìm hiểu khái niệm và cách tính mAP, chúng ta cần tìm 
 	  * False Positive (FP): Đối tượng được nhận dạng sai với tỉ lệ IOU < threshold. 
 	  * False Nagative (FN): Đối tượng không được nhận dạng.
 
-* **2. Precision và Recall**
-* Precision - độ tin cậy của model, cho biết bao nhiêu % dự đoán Positive là True Positive. 
-* Recall - độ nhạy của model cho biết model có thể đoán đúng được bao nhiêu Positive trong dữ liệu được cho.
+* **Precision và Recall**
+  * Precision - độ tin cậy của model, cho biết bao nhiêu % dự đoán Positive là True Positive. 
+  * Recall - độ nhạy của model cho biết model có thể đoán đúng được bao nhiêu Positive trong dữ liệu được cho.
 
-* Với định nghĩa trên, precision và recall thay đổi với mỗi IOU threshold. Để quan sát tất cả các precision và recall tương ứng các IOU threshold ta sử dụng Precision Recall Curve – đường đi qua tất các cặp giá trị (recall, precicion) trong khoảng IOU threshold.
+  * Với định nghĩa trên, precision và recall thay đổi với mỗi IOU threshold. Để quan sát tất cả các precision và recall tương ứng các IOU threshold ta sử dụng Precision Recall Curve – đường đi qua tất các cặp giá trị (recall, precicion) trong khoảng IOU threshold.
 
 <p align ="middle">
 <img src = "https://github.com/lynguyenminhuit/CS114.M11/blob/master/Final_Project/Image%20in%20report/precision%20recall%20curve.png?raw=true" />
 </p>
 
-* Ngoài ra Precision Recall Curve còn giúp tính AP (Average Precision). AP hay AUC(Area Under the Curve ) chính là vùng diện tích nằm dưới Precision Recall Curve nói trên (ở hình trên là phần màu xám).
+  * Ngoài ra Precision Recall Curve còn giúp tính AP (Average Precision). AP hay AUC(Area Under the Curve ) chính là vùng diện tích nằm dưới Precision Recall Curve nói trên (ở hình trên là phần màu xám).
 
 <p align ="middle">
 <img src = "https://github.com/lynguyenminhuit/CS114.M11/blob/master/Final_Project/Image%20in%20report/calcula%20AP.jpg?raw=true" />
@@ -407,7 +408,7 @@ Và bây giờ, đã đủ những kiến thức để tìm hiểu mAP rồi. B�
 
 [2]https://blog.paperspace.com/mean-average-precision/
 
-[3]
+[3]https://miai.vn/2021/10/14/thu-tim-hieu-ve-map-do-luong-object-detection-model/?fbclid=IwAR27RTRr7wFtCfAn58L6LU9kDEQc1g3skBkxiX3lV5lkmj691bqW7ryvW3E
 
 *	Tìm hiểu về feature extraction
 
