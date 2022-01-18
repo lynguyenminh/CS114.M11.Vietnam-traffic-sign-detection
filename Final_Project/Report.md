@@ -307,10 +307,10 @@ Trước khi tìm hiểu khái niệm và cách tính mAP, chúng ta cần tìm 
 * **IOU (Intersection over Union).**
   * IOU là hàm đánh giá độ chính xác của object detector trên tập dữ liệu, cụ thể được xác định bởi phép chia:
   
-<!-- <p align ="middle">
+<p align ="middle">
 <img src = "https://github.com/lynguyenminhuit/CS114.M11/blob/master/Final_Project/Image%20in%20report/cong%20thuc%20IOU.png?raw=true" />
 <img src = "https://github.com/lynguyenminhuit/CS114.M11/blob/master/Final_Project/Image%20in%20report/th%E1%BB%B1c%20t%E1%BA%BF%20IOU.png?raw=true" />
-</p> -->
+</p>
 
 
   * Trong đó:
