@@ -52,11 +52,11 @@ Chỉnh sửa format báo cáo |  |  | &#9745;
 
 [Phân công công việc.](#phancong)
 
-Minh chứng cho YOLO nhanh hơn RCNN. 
+[Minh chứng cho YOLO nhanh hơn RCNN.](#yolonhanh)
 
-Cách đánh giá FPS.
+[Cách đánh giá FPS.](#danhgiafps)
 
-Phân tích những class có precall, precision thấp và đưa ra lý do.
+[Phân tích những class có precall, precision thấp và đưa ra lý do.](#phantich)
 
 
 <a name="tongquan"></a>
@@ -275,10 +275,12 @@ Bộ dataset sau cùng:
 * Các thuật toán object detection bao gồm 2 nhóm chính:
   *	Họ các mô hình R-CNN (Region-Based Convolutional Neural Networks).
   *	Họ các mô hình YOLO (You Only Look Once).
+
+<a name="yolonhanh"></a>
 * Trong phần abstract của bài báo: https://www.researchsquare.com/article/rs-668895/latest.pdf. Có đề cập rằng mAP của Faster R-CNN đạt 87.96%, trong khi đó YOLOv3 chỉ đạt 80.17% (Đây cũng là con số khá tốt, chấp nhận được), nhưng Frames per second (FPS) cao gấp 8 lần so với Faster R-CNN.
 * Dựa vào đặc điểm của bài toán chúng em đặt ra, yếu tố tốc độ nhận diện có vai trò quan trọng hơn so với độ chính xác. Do đó chúng em quyết định dùng YOLO để thực hiện bài toán này. Hai phiên bản chúng em chọn là YOLOv4, YOLOv5.
 
-</p>
+<!-- </p> -->
 
 
 ## **4.2. Tổng quan về YOLOv4 và YOLOv5**
@@ -432,7 +434,7 @@ mAP càng lớn thì thì đa số AP của từng class riêng biệt càng l�
 
 ![](https://github.com/lynguyenminhuit/CS114.M11/blob/master/Final_Project/Image%20in%20report/danh%20gia.png?raw=true)  
 
- 
+<a name="danhgiafps"></a>
 * Để tính được FPS, chúng em làm như sau:
 
 YOLOv4 | YOLOv5 
@@ -448,7 +450,7 @@ Tính FPS trung bình của 11 video trong tập test. | Tính FPS trung bình c
 
 
 
-
+<a name="phantich"></a>
 Phân tích cụ thể trên YOLOv5: file weights `best_v5_augmentdata.pt` với `conf=0.5`
 
 <p align ="middle">
