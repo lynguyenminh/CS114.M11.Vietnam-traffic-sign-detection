@@ -402,7 +402,9 @@ Hình 3.4.1: Precision-Recall Curve
 AUC (Area Under the Curve ) - diện tích nằm dưới Curve giúp đánh giá model. Với Precision Recall Curve, Area Under the Curve (AUC) còn được gọi là  Average precision (AP). AP được xác định bởi công thức:   
 <!-- ![](https://github.com/lynguyenminhuit/CS114.M11/blob/master/Final_Project/Image%20in%20report/tinh%20ap.png?raw=true)   -->
 
-**$AP = \sum_{k=1}^{n}{(R_k - R_{k-1})* P_k}$**
+
+
+- <img src="https://latex.codecogs.com/gif.latex?AP = \sum_{k=1}^{n}{(R_k - R_{k-1})* P_k} " /> 
 
 $R_k,P_k$  lần lượt là Recall và Precision ứng với threshold thứ k    
 n: số threshold
