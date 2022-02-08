@@ -512,6 +512,7 @@ Hình 3.4.3.6: Biển báo bị cây che.
 <p align ="middle">
 <img src = "https://github.com/lynguyenminhuit/CS114.M11/blob/master/Final_Project/Image%20in%20report/bong%20toi%202.png?raw=true" height=480 width=270/>
 <img src = "https://github.com/lynguyenminhuit/CS114.M11/blob/master/Final_Project/Image%20in%20report/bong%20toi%201.png?raw=true" height=480 width=270/>
+	
 Hình 3.4.3.7: Biển báo bị ảnh hưởng trong tối.
 
 </p>
@@ -545,29 +546,43 @@ Hình 3.4.3.7: Biển báo bị ảnh hưởng trong tối.
 # **6. Tài liệu tham khảo**
 
 **Tìm hiểu về model Yolov4:**
+
 [1]https://phamdinhkhanh.github.io/2020/03/10/DarknetGoogleColab.html
+
 [2]https://www.youtube.com/watch?v=mmj3nxGT2YQ
+
 [3]https://towardsdatascience.com/yolov5-compared-to-faster-rcnn-who-wins-a771cd6c9fb4
 
 **Tìm hiểu về yolov5**
+
 [1]https://joaootavionf007.medium.com/orange-trees-detection-with-yolo-v5-in-uav-imagery-22ec29db922e
+
 [2]https://github.com/ultralytics/yolov5
 
 **Tìm hiểu về thang đo đánh giá**
+
 [1]sklearn.metrics.average_precision_score — scikit-learn 1.0.2 documentation
 
 [2]Precision-Recall — scikit-learn 1.0.2 documentation
+
 [3]https://blog.paperspace.com/deep-learning-metrics-precision-recall-accuracy/
+
 [4]https://blog.paperspace.com/mean-average-precision/
 
 **Tìm hiểu về feature extraction**
+
 [1]https://www.sciencedirect.com/topics/engineering/feature-extraction
 
 **Tìm hiểu tổng quan YOLOv4, YOLOv5**
+
 [1]https://medium.com/deelvin-machine-learning/yolov4-vs-yolov5-db1e0ac7962b
+
 [2]https://aicurious.io/posts/tim-hieu-yolo-cho-phat-hien-vat-tu-v1-den-v5/
+
 [3] https://www.researchsquare.com/article/rs-668895/latest.pdf
 
+
 **Mẫu bài báo cáo**
+
 [1]https://github.com/lphuong304/CS114.L21/blob/main/FINAL_PROJECT/Final_Report.md
 
