@@ -26,6 +26,8 @@ Nguyễn Đặng Nhật Hào | 20520490 | 20520490@gm.uit.deu.vn | https://githu
 Nguyễn Hồng Hậu | 20521300 | 20521300@gm.uit.edu.vn | https://github.com/Nguyen-Hong-Hau
 </p>
 
+<a name="phancong"></a>
+**Phân công công việc**
 Công Việc | Lý | Hào | Hậu
 :---| :---| :---| :---
 Quay vieo làm data |  | &#9745; |   
@@ -48,7 +50,7 @@ Chỉnh sửa format báo cáo |  |  | &#9745;
 <a name="giaitrinh"></a>
 # **1. Giải Trình Sau Vấn Đáp**
 
-Phân công công việc.
+[Phân công công việc.](#phancong)
 
 Minh chứng cho YOLO nhanh hơn RCNN. 
 
