@@ -561,9 +561,9 @@ Hình 3.4.3.7: Biển báo bị ảnh hưởng trong tối.
 
 **Tìm hiểu về thang đo đánh giá**
 
-[1]sklearn.metrics.average_precision_score — scikit-learn 1.0.2 documentation
+[1]https://scikit-learn.org/stable/modules/generated/sklearn.metrics.average_precision_score.html
 
-[2]Precision-Recall — scikit-learn 1.0.2 documentation
+[2]https://scikit-learn.org/stable/auto_examples/model_selection/plot_precision_recall.html
 
 [3]https://blog.paperspace.com/deep-learning-metrics-precision-recall-accuracy/
 
