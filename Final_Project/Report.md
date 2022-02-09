@@ -133,7 +133,7 @@ Bảng 3.1.1.  Thông tin các đợt thu thập dữ liệu.
   * Đối với mỗi ảnh sau khi gán nhãn, sẽ tạo ra 1 file txt. Gọi là file annotation.
     
 
-  ![](https://latex.codecogs.com/png.image?\dpi{110}%20X_{center}=\frac{w}{width_{image}}, "")  
+
 Hình 3.1.2.3. Ảnh và file annotation tương ứng.     
 
 * Với w, h là khoảng cách từ tâm bounding box đến cạnh bên trái và vạnh bên trên của bức ảnh (như trong hình vẽ trên), các thành phần của 1 file annotaion như sau:      
@@ -143,8 +143,8 @@ Hình 3.1.2.3. Ảnh và file annotation tương ứng.
 
    
 
-  <!-- $X_{center}=\frac{w}{width_{image}}, $ -->
-  ![](https://github.com/lynguyenminhuit/CS114.M11/blob/master/Final_Project/Image%20in%20report/anh%20va%20file%20annotation.png?raw=true "") 
+  $X_{center}=\frac{w}{width_{image}}, $
+
   $Y_{center}= \frac{h}{height_{image}}$
   * Width, Height là chiều dài của bounding box theo chiều ngang và chiều cao của bức ảnh.
 
