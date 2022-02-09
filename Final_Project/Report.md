@@ -6,8 +6,8 @@
   </a>
 </p>
 <h1 align="center"><b>Đồ án cuối kỳ môn Máy học - CS114.M11</b></h1>
-<h2 align="center"><b>BÀI TOÁN NHẬN DIỆN BIỂN BÁO GIAO THÔNG TRONG KHU VỰC THÀNH PHỐ HỒ CHÍ MINH
- </b></h2>
+<h2 align="center"><b>BÀI TOÁN NHẬN DIỆN BIỂN BÁO GIAO THÔNG TRONG KHU VỰC <br>THÀNH PHỐ HỒ CHÍ MINH
+ </br></h2>
 
 
 ### Giảng viên hướng dẫn
