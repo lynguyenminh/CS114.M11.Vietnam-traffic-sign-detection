@@ -139,13 +139,11 @@ Hình 3.1.2.3. Ảnh và file annotation tương ứng.
 * Với w, h là khoảng cách từ tâm bounding box đến cạnh bên trái và vạnh bên trên của bức ảnh (như trong hình vẽ trên), các thành phần của 1 file annotaion như sau:      
   * Mỗi dòng là thông tin của 1 bounding box:
   * id: Thứ tự của class do mình định nghĩa.
-  * Center: Là tọa độ tâm của bounding box $(X_{center},Y_{center} )$.Tính như sau:
+  * Center: Là tọa độ tâm của bounding box (X_center, Y_center).Tính như sau:
 
    
 
-  $X_{center}=\frac{w}{width_{image}}, $
-
-  $Y_{center}= \frac{h}{height_{image}}$
+![](https://github.com/lynguyenminhuit/CS114.M11/blob/master/Final_Project/Image%20in%20report/center.png?raw=true)  
   * Width, Height là chiều dài của bounding box theo chiều ngang và chiều cao của bức ảnh.
 
 ### **3.1.3. Kết quả thu thập dữ liệu**
@@ -234,7 +232,7 @@ Hình 3.1.4. Biển “Cấm dừng và đỗ xe” có và không có thời gi
 
 Tên kĩ thuật tăng cường | Lý do áp dụng
 --- | --- 
-Xoay ảnh từ $-7^o đến 7^o$ | Khi điều khiển xe máy né các chướng ngại vật thì xe sẽ bị nghiêng một góc nhỏ.
+Xoay ảnh từ -7 đến 7 độ | Khi điều khiển xe máy né các chướng ngại vật thì xe sẽ bị nghiêng một góc nhỏ.
 Làm mờ ảnh | Khi xe chạy với tốc độ cao, camera của điện thoại sẽ không bắt nét kịp, làm cho ảnh mờ. 
 
   * Sau khi tăng cường, thu được gấp 3 lần số ảnh trong tập train ban đầu (3537 ảnh). Khi kiểm tra lại data sau khi tăng cường, có những ảnh xoay làm cho biển báo bị che mất, chúng em quyết định xóa. Cuối cùng còn 3342 ảnh.
@@ -264,7 +262,9 @@ Bộ dataset sau cùng:
   <img src="https://github.com/lynguyenminhuit/CS114.M11/blob/master/Final_Project/Image%20in%20report/tang%20cuong.png?raw=true" alt="drawing" width="1000" height='700'/>
 
   Hình 2.2.3.5. Số lượng ảnh mỗi class sau khi tăng cường trên tập train. 
+</p>
 
+<p align ="middle">   
   <img src="https://github.com/lynguyenminhuit/CS114.M11/blob/master/Final_Project/Image%20in%20report/phan%20phoi%20vi%20tri%20bb.png?raw=true" alt="drawing" width="400" height='300'/>
   <img src="https://github.com/lynguyenminhuit/CS114.M11/blob/master/Final_Project/Image%20in%20report/phan%20phoi%20kich%20thuoc%20bb.png?raw=true" alt="drawing" width="400" height='300'/>
 
@@ -407,9 +407,9 @@ AUC (Area Under the Curve ) - diện tích nằm dưới Curve giúp đánh giá
 
 
 
-- <img src="https://latex.codecogs.com/gif.latex?AP = \sum_{k=1}^{n}{(R_k - R_{k-1})* P_k} " /> 
+![](https://github.com/lynguyenminhuit/CS114.M11/blob/master/Final_Project/Image%20in%20report/ap.png?raw=true)  
 
-$R_k,P_k$  lần lượt là Recall và Precision ứng với threshold thứ k    
+R_k,P_k  lần lượt là Recall và Precision ứng với threshold thứ k    
 n: số threshold
 * AP lớn nếu vùng AUC này lớn, suy ra đường cong có xu hướng gần góc trên bên phải và có nghĩa là tại các threshold khác nhau thì Precision và Recall đều khá cao. Từ đó suy ra model tốt.
 * AP nhỏ thì cả Precision và Recall đều khá thấp và model không tốt.
@@ -421,7 +421,7 @@ n: số threshold
 Trong bài toán Object Detection nói chung hay YOLO nói riêng thì mAP được định nghĩa là trung bình cộng giá trị AP của tất cả các class.
 Trong đó:
 
-$mAP = \frac{1}{n} \sum_{i \in C}^{} AP(i)$
+![](https://github.com/lynguyenminhuit/CS114.M11/blob/master/Final_Project/Image%20in%20report/calcula%20mAP.png?raw=true)  
 
 *	C là tập hợp tất cả các class
 *	n là số class
