@@ -1,10 +1,19 @@
-#CS114
+
+<h3 align="center" font-size= 14px;><b>Trường Đại Học Công Nghệ Thông Tin - ĐHQH TPHCM</b></h3>
+<p align="center">
+  <a href="https://www.uit.edu.vn/" title="Trường Đại học Công nghệ Thông tin" style="border: 5;">
+    <img src="https://i.imgur.com/WmMnSRt.png" alt="Trường Đại học Công nghệ Thông tin | University of Information Technology">
+  </a>
+</p>
+
+
+
 
 ## **CS114.M11- MACHINELEARNING - UIT**
 
 * Môn học: Machine Learning
-* Số tín chỉ: 3 lý thuyết + 1 Thực hành
-* Mã nhóm: LHH
+* Số tín chỉ: 3 LT + 1 TH
+* Tên nhóm: LHH
 
 
 ### Giáo viên hướng dẫn
