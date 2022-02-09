@@ -36,7 +36,8 @@ Tìm hiểu và train YOLOv4 | &#9745; | &#9745; |
 Tìm hiểu và train YOLOv5 | &#9745; |  | &#9745;  
 Đánh giá file weights | &#9745; | &#9745; |   
 Hoàn thành nội dung báo cáo | &#9745; |  | &#9745;  
-Chỉnh sửa format báo cáo |  |  | &#9745;  
+Chỉnh sửa format báo cáo |  |  | &#9745; 
+Demo mô hình | &#9745; | &#9745; |   
 
 
 # **BẢNG MỤC LỤC**
@@ -45,7 +46,8 @@ Chỉnh sửa format báo cáo |  |  | &#9745;
 3. [Xây Dựng Bộ Dữ Liệu](#dulieu)
 4. [Training Và Đánh Giá Model](#training)
 5. [Hướng Phát Triển Và Cải Tiến](#ungdung)
-6. [Nguồn Tham Khảo](#thamkhao)
+6. [Demo mô hình](#demo)
+7. [Nguồn Tham Khảo](#thamkhao)
 
 <a name="giaitrinh"></a>
 # **1. Giải Trình Sau Vấn Đáp**
@@ -131,7 +133,7 @@ Bảng 3.1.1.  Thông tin các đợt thu thập dữ liệu.
   * Đối với mỗi ảnh sau khi gán nhãn, sẽ tạo ra 1 file txt. Gọi là file annotation.
     
 
-  ![](https://github.com/lynguyenminhuit/CS114.M11/blob/master/Final_Project/Image%20in%20report/anh%20va%20file%20annotation.png?raw=true "")  
+  ![](https://latex.codecogs.com/png.image?\dpi{110}%20X_{center}=\frac{w}{width_{image}}, "")  
 Hình 3.1.2.3. Ảnh và file annotation tương ứng.     
 
 * Với w, h là khoảng cách từ tâm bounding box đến cạnh bên trái và vạnh bên trên của bức ảnh (như trong hình vẽ trên), các thành phần của 1 file annotaion như sau:      
@@ -141,7 +143,8 @@ Hình 3.1.2.3. Ảnh và file annotation tương ứng.
 
    
 
-  $X_{center}=\frac{w}{width_{image}}, $
+  <!-- $X_{center}=\frac{w}{width_{image}}, $ -->
+  ![](https://github.com/lynguyenminhuit/CS114.M11/blob/master/Final_Project/Image%20in%20report/anh%20va%20file%20annotation.png?raw=true "") 
   $Y_{center}= \frac{h}{height_{image}}$
   * Width, Height là chiều dài của bounding box theo chiều ngang và chiều cao của bức ảnh.
 
@@ -544,8 +547,14 @@ Hình 3.4.3.7: Biển báo bị ảnh hưởng trong tối.
 *	Việc detect cần yếu tố thời gian, do đó yêu cầu thiết bị có cấu hình mạnh. Nhưng đa phần các loại điện thoại di động bây giờ không được thiết kế để thực hiện tác vụ này. Chúng em sẽ triển khai model lên web, người dùng sẽ giao tiếp với hệ thống thông qua web. Khi đó ta chỉ cần quan tâm tới tốc độ mạng (Vấn đề về mạng thì dễ giải quyết hơn).
 *	Hướng phát triển tiếp theo là kết hợp model này với Google Map, vì đa phần người dùng thường bật Google Map khi tham gia giao thông.
 
+
+<a name="demo"></a>
+# **6. Demo mô hình**
+
+Source code và hướng dẫn cài đặt đã push lên github: https://github.com/lynguyenminhuit/deploy_yolov5_signtraffic.git
+
 <a name="thamkhao"></a>
-# **6. Tài liệu tham khảo**
+# **7. Tài liệu tham khảo**
 
 **Tìm hiểu về model Yolov4:**
 
