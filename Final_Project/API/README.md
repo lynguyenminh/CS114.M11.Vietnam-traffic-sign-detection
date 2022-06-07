@@ -13,6 +13,8 @@ B1: Tải source code
     git clone https://github.com/lynguyenminhuit/CS114.M11.git
     cd CS114.M11/Final_Project/API
 
+    # Tai file weights
+    gdown --id 1pux_7RPKlZiqQhRILtU0e6GVxS_7iw_R
 B2: Cài môi trường
 
     pip3 install -r requirements.txt --no-cache-dir
