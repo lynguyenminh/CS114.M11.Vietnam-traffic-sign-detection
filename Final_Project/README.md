@@ -551,7 +551,7 @@ Hình 3.4.3.7: Biển báo bị ảnh hưởng trong tối.
 <a name="demo"></a>
 # **6. Demo mô hình**
 
-[Demo]('./API')
+ [Demo.](./API/)
 
 <a name="thamkhao"></a>
 # **7. Tài liệu tham khảo**
