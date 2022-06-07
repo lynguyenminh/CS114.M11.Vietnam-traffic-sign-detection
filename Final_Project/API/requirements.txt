@@ -1,52 +1,72 @@
-
-  
-# YOLOv5 requirements
-# Usage: pip install -r requirements.txt
-
-# Base ----------------------------------------
-matplotlib>=3.2.2
-numpy>=1.18.5
-opencv-python>=4.1.1
-Pillow>=7.1.2
-PyYAML>=5.3.1
-requests>=2.23.0
-scipy>=1.4.1  # Google Colab version
-torch>=1.7.0
-torchvision>=0.8.1
-tqdm>=4.41.0
-protobuf<=3.20.1  # https://github.com/ultralytics/yolov5/issues/8012
-
-# Logging -------------------------------------
-tensorboard>=2.4.1
-# wandb
-
-# Plotting ------------------------------------
-pandas>=1.1.4
-seaborn>=0.11.0
-
-# Export --------------------------------------
-# coremltools>=4.1  # CoreML export
-# onnx>=1.9.0  # ONNX export
-# onnx-simplifier>=0.3.6  # ONNX simplifier
-# scikit-learn==0.19.2  # CoreML quantization
-# tensorflow>=2.4.1  # TFLite export
-# tensorflowjs>=3.9.0  # TF.js export
-# openvino-dev  # OpenVINO export
-
-# Extras --------------------------------------
-ipython  # interactive notebook
-psutil  # system utilization
-thop  # FLOPs computation
-# albumentations>=1.0.3
-# pycocotools>=2.0  # COCO mAP
-# roboflow
-
-
-# click==8.0.3
-# colorama==0.4.4
-# Flask==2.0.3
-# gunicorn==20.1.0
-# itsdangerous==2.0.1
-# Jinja2==3.0.3
-# MarkupSafe==2.0.1
-# Werkzeug==2.0.3
+absl-py==1.1.0
+asttokens==2.0.5
+backcall==0.2.0
+beautifulsoup4==4.11.1
+cachetools==5.2.0
+certifi==2022.5.18.1
+charset-normalizer==2.0.12
+click==8.1.3
+cycler==0.11.0
+decorator==5.1.1
+executing==0.8.3
+filelock==3.7.1
+Flask==2.1.2
+fonttools==4.33.3
+gdown==4.4.0
+google-auth==2.6.6
+google-auth-oauthlib==0.4.6
+grpcio==1.46.3
+idna==3.3
+importlib-metadata==4.11.4
+ipython==8.4.0
+itsdangerous==2.1.2
+jedi==0.18.1
+Jinja2==3.1.2
+kiwisolver==1.4.2
+Markdown==3.3.7
+MarkupSafe==2.1.1
+matplotlib==3.5.2
+matplotlib-inline==0.1.3
+numpy==1.22.4
+oauthlib==3.2.0
+opencv-python==4.5.5.64
+packaging==21.3
+pandas==1.4.2
+parso==0.8.3
+pexpect==4.8.0
+pickleshare==0.7.5
+Pillow==9.1.1
+prompt-toolkit==3.0.29
+protobuf==3.20.1
+psutil==5.9.1
+ptyprocess==0.7.0
+pure-eval==0.2.2
+pyasn1==0.4.8
+pyasn1-modules==0.2.8
+Pygments==2.12.0
+pyparsing==3.0.9
+PySocks==1.7.1
+python-dateutil==2.8.2
+pytz==2022.1
+PyYAML==6.0
+requests==2.27.1
+requests-oauthlib==1.3.1
+rsa==4.8
+scipy==1.8.1
+seaborn==0.11.2
+six==1.16.0
+soupsieve==2.3.2.post1
+stack-data==0.2.0
+tensorboard==2.9.0
+tensorboard-data-server==0.6.1
+tensorboard-plugin-wit==1.8.1
+thop==0.0.31.post2005241907
+torch==1.11.0
+torchvision==0.12.0
+tqdm==4.64.0
+traitlets==5.2.2.post1
+typing-extensions==4.2.0
+urllib3==1.26.9
+wcwidth==0.2.5
+Werkzeug==2.1.2
+zipp==3.8.0
