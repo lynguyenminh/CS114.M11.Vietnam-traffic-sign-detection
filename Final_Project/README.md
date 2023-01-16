@@ -21,7 +21,7 @@ Ths. Phạm Nguyễn Trường An | truonganpn@uit.edu.vn
 ### Các thành viên của nhóm
 Họ tên | MSSV | Email | GitHub
 --- | --- | -- | --
-Nguyễn Minh Lý | 20521592 | 20521592@gm.uit.edu.vn | https://github.com/lynguyenminhuit
+Nguyễn Minh Lý | 20521592 | 20521592@gm.uit.edu.vn | https://github.com/lynguyenminh
 Nguyễn Đặng Nhật Hào | 20520490 | 20520490@gm.uit.deu.vn | https://github.com/cauhamau
 Nguyễn Hồng Hậu | 20521300 | 20521300@gm.uit.edu.vn | https://github.com/Nguyen-Hong-Hau
 </p>
