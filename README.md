@@ -33,3 +33,10 @@ Nguyễn Hồng Hậu | 20521300 | 20521300@gm.uit.edu.vn | https://github.com/N
 
 
 
+### Đồ án cuối kì
+Phát hiện và nhận dạng hơn 50 biển báo giao thông phổ biến ở Việt Nam. [Tại đây](./Final_Project)
+- [x] Thu thập data thủ công
+- [x] Source code
+- [x] Báo cáo
+- [x] API demo
+
